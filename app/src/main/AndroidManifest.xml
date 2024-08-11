@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rahhal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="Allo doctor"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Rahhal">
+        <activity
+            android:name=".DossierMedical"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPatient"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:label="Login" />
+        <activity
+            android:name=".ListPatient"
+            android:exported="false"
+            android:label="Recherche" />
+        <activity
+            android:name=".CalenderDoctor"
+            android:exported="false"
+            android:label="table" />
+        <!--<activity
+            android:name=".Payment"
+            android:exported="false"
+            android:label="PDF" />-->
+        <activity
+            android:name=".Info_Personal"
+            android:exported="false"
+            android:label="info_personal" />
+        <activity
+            android:name=".Randez_vous"
+            android:exported="false"
+            android:label="Randez_vous" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

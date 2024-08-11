@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/dossierp"
+
+    tools:context="com.example.rahhal.Info_Personal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center"
+            android:src="@drawable/personalinfo" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="#FFFFFF"
+               android:theme="@style/TextInputLayoutStyle"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               app:hintTextAppearance="@style/appTheme">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/nom"
+                   android:hint="entrer ton nom complet"
+                   android:drawableStart="@drawable/ic_baseline_create_24"
+                   android:padding="10dp"
+                   android:inputType="text"
+                   android:background="#30ffffff"
+                   android:drawablePadding="20dp"
+                   android:textColorHint="@color/black"
+                   android:textColor="@color/black"
+                   android:textSize="18sp"
+                   android:layout_marginBottom="20dp">
+
+               </com.google.android.material.textfield.TextInputEditText>
+
+
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@style/appTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/age"
+                    android:hint="entrer ton age"
+                    android:drawableStart="@drawable/ic_baseline_create_24"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:background="#30ffffff"
+                    android:drawablePadding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@style/appTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/numero"
+                    android:hint="entrer ton numero"
+                    android:drawableStart="@drawable/ic_baseline_phone_android_24"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:background="#30ffffff"
+                    android:drawablePadding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@style/appTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:hint="entrer ton email"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:background="#30ffffff"
+                    android:drawablePadding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@style/appTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cin"
+                    android:hint="entrer ton CIN"
+                    android:drawableStart="@drawable/ic_baseline_assignment"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:background="#30ffffff"
+                    android:drawablePadding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@style/appTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/adress"
+                    android:hint="entrer ton adress"
+                    android:drawableStart="@drawable/house"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:background="#30ffffff"
+                    android:drawablePadding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="#FFFFFF"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                app:hintTextAppearance="@style/appTheme">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/civilite"
+                    android:hint="entrer ton civilite"
+                    android:drawableStart="@drawable/escalator"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:background="#30ffffff"
+                    android:drawablePadding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S'inscrire"
+                app:cornerRadius="24dp"
+                app:elevation="4dp"
+                android:background="@drawable/stylebutton"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/acceuil"
+
+    tools:context="com.example.rahhal.MainActivity">
+
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#30ffffff"
+        android:text="Allo docteur"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/patient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:text="patient"
+        app:cornerRadius="24dp"
+        app:elevation="4dp"
+        android:background="@drawable/stylebutton"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/docteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:cornerRadius="24dp"
+        app:elevation="4dp"
+        android:background="@drawable/stylebutton"
+        android:text="Docteur"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+
+</LinearLayout>

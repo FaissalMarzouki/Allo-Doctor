@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "159962447068",
+    "firebase_url": "https://allo-docteur-ad6d8-default-rtdb.firebaseio.com",
+    "project_id": "allo-docteur-ad6d8",
+    "storage_bucket": "allo-docteur-ad6d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159962447068:android:6ed87e2305e33ce6884819",
+        "android_client_info": {
+          "package_name": "com.example.allodocteur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159962447068-ob467cl0g20ch05j37ja70pvo327gmua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvYgJUipwzJlcAnzsBXgnhhwcWlHDdDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159962447068-9ppvre9ho7mv7eu1pa4ui00juuuob445.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159962447068:android:24576ab3018dae2d884819",
+        "android_client_info": {
+          "package_name": "com.example.pfe2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159962447068-ob467cl0g20ch05j37ja70pvo327gmua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvYgJUipwzJlcAnzsBXgnhhwcWlHDdDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159962447068-9ppvre9ho7mv7eu1pa4ui00juuuob445.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159962447068:android:d6e7a52a9c5a3d80884819",
+        "android_client_info": {
+          "package_name": "com.example.rahhal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159962447068-ob467cl0g20ch05j37ja70pvo327gmua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvYgJUipwzJlcAnzsBXgnhhwcWlHDdDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159962447068-9ppvre9ho7mv7eu1pa4ui00juuuob445.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

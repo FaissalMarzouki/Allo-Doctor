@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/medecinpage"
+
+    tools:context="com.example.rahhal.login">
+
+    <ImageView
+        android:src="@drawable/stethoscope"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/bonjour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Espace medecin "
+        android:background="#30ffffff"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#FFFFFF"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            app:hintTextAppearance="@style/appTheme">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:drawableStart="@drawable/ic_baseline_create_24"
+                android:hint="entrer ton email"
+                android:background="#30ffffff"
+                android:drawablePadding="20dp"
+                android:textColorHint="@color/black"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="18sp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#FFFFFF"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            app:hintTextAppearance="@style/appTheme">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/passeWord"
+                android:hint="entrer ton most de passe"
+                android:drawableStart="@drawable/ic_baseline_create_24"
+                android:padding="10dp"
+                android:background="#30ffffff"
+                android:drawablePadding="20dp"
+                android:textColorHint="@color/black"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cornerRadius="24dp"
+            app:elevation="4dp"
+            android:background="@drawable/stylebutton"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="login" />
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
